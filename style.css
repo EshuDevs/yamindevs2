@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+    color: white ;
+    font-family: 'SF Pro';
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+ }
+ nav{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 2.2rem;
+ }
+ .nav:hover{
+    .bar-icon{
+        fill: rgba(60, 60, 60);
+    }
+    .nav-items{
+        display: block;
+    }
+}
+ .icon{
+    padding: 14px;
+    background-color: rgba(50, 50, 50);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+ }
+.bar-icon{
+    fill: 	#218aff;
+    background-color: rgba(50, 50, 50);
+    width: 20px;
+    height: 20px;
+ }
+
+ .test{
+    width: 1.7rem;
+    height: 0.32rem;
+    background-color: rgba(50, 50, 50);
+    position: relative;
+    left: 1.55rem;
+    top: 0.5em;
+    transform: rotate(30deg);
+    z-index: 1;
+
+ }
+.nav-items{
+    list-style: none;
+    left: 3rem;
+    color: white;
+    display: none;
+    position: absolute;
+}
+
+.nav-item:hover{
+    .item{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgba(60, 60, 60);
+        border-radius: 24px;
+        gap: 24px;
+    }
+}
+
+.nav-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    background-color: rgba(60, 60, 60);
+    border-radius: 24px;
+    padding: 12px;
+}
+.item-icon{
+    fill: #218aff;
+    justify-content: flex-start;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(60, 60, 60);
+}
+
+
+
+.item{
+    justify-content: flex-start;
+    display: none;
+    margin: 0;
+    background-color: rgba(60, 60, 60);
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.profile{
+   margin: 0;
+    background-color: white;
+    border-radius: 20em;
+    height: 80px;
+    width: 80px;
+    border: 8px solid rgba(50, 50, 50);
+    margin-bottom: 2rem;
+}
+.wassup{
+    font-weight: 500;
+    font-size: 3rem;
+    
+}
