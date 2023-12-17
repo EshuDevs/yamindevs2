@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;  
  }
- nav{
+.nav{
     display: flex;
     flex-direction: row;
     position: relative;
@@ -22,10 +22,13 @@
  .nav:hover{
     .bar-icon{
         fill: rgba(60, 60, 60);
+        transition: fill 0.3s ease-in-out;
     }
     .nav-items{
-        display: block;
+        opacity: 1;
+        transition: all 1s ease-in-out;
     }
+
 }
  .icon{
     padding: 14px;
@@ -46,7 +49,7 @@
     height: 20px;
  }
 
- .test{
+ .box{
     width: 1.7rem;
     height: 0.32rem;
     background-color: rgba(50, 50, 50);
@@ -61,29 +64,26 @@
     list-style: none;
     left: 3rem;
     color: white;
-    display: none;
+    opacity: 0;
     position: absolute;
+
 }
 
-.nav-item:hover{
-    .item{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        background-color: rgba(60, 60, 60);
-        border-radius: 24px;
-        gap: 24px;
+.nav-item:hover {
+    background-color: #218aff;
+    border-radius: 30px;
+    .item-icon{
+        fill: white;
+        background-color: #218aff;
     }
 }
 
 .nav-item{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     margin: 20px;
-    background-color: rgba(60, 60, 60);
     border-radius: 24px;
-    padding: 12px;
+    padding: 0 12px 0 0;
 }
 .item-icon{
     fill: #218aff;
@@ -91,19 +91,26 @@
     width: 25px;
     height: 25px;
     background-color: rgba(60, 60, 60);
+    padding: 12px;
+    border-radius: 24px;
+    
 }
 
 
-
-.item{
+.item {
     justify-content: flex-start;
-    display: none;
+    opacity: 0;
     margin: 0;
-    background-color: rgba(60, 60, 60);
+    background-color: #218aff;
     font-size: larger;
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.nav-item:hover .item {
+    opacity: 1;
+}
+
 .profile{
    margin: 0;
     background-color: white;
