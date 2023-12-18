@@ -126,5 +126,15 @@
 .wassup{
     font-weight: 500;
     font-size: 3rem;
-    
+}
+.portfolio-subtext{
+    color: rgba(80, 80, 80);
+    margin: 10px;
+}
+.cv-btn{
+    background-color: #218aff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
 }
