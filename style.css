@@ -26,7 +26,7 @@
     }
     .nav-items{
         opacity: 1;
-        transition: all 1s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 
 }
@@ -72,34 +72,36 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    margin: 20px;
     padding: 0 12px 0 0;
     overflow: hidden;
     border-radius: 24px;
-    transition: 1.5s;
-    width: 50px;
+    transition: 1s;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin: 10px;
 }
 .item-icon{
     fill: #218aff;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background-color: rgba(60, 60, 60);
     padding: 12px;
     border-radius: 24px;
     flex-shrink: 0;
-    transition: 1.5s;
+    transition: 1s;
 }
 .item {
     display: none;
     margin: 0;
     font-size: larger;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 
 .nav-item:hover {
     background-color: #218aff;
-    width: 150px;
+    width: 130px;
     .item{
         display: contents;
         background-color: #218aff;
@@ -120,6 +122,7 @@
     border: 8px solid rgba(50, 50, 50);
     margin-bottom: 2rem;
 }
+
 .wassup{
     font-weight: 500;
     font-size: 3rem;
