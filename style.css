@@ -26,7 +26,7 @@
     }
     .nav-items{
         opacity: 1;
-        transition: all 1s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 
 }
@@ -66,49 +66,51 @@
     color: white;
     opacity: 0;
     position: absolute;
-
-}
-
-.nav-item:hover {
-    background-color: #218aff;
-    border-radius: 30px;
-    .item-icon{
-        fill: white;
-        background-color: #218aff;
-    }
 }
 
 .nav-item{
     display: flex;
     align-items: center;
-    margin: 20px;
-    border-radius: 24px;
+    gap: 4px;
     padding: 0 12px 0 0;
+    overflow: hidden;
+    border-radius: 24px;
+    transition: 1s;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin: 10px;
 }
 .item-icon{
     fill: #218aff;
-    justify-content: flex-start;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background-color: rgba(60, 60, 60);
-    padding: 12px;
+    padding: 8px;
     border-radius: 24px;
-    
+    flex-shrink: 0;
+    transition: 1s;
 }
-
-
 .item {
-    justify-content: flex-start;
-    opacity: 0;
+    display: none;
     margin: 0;
-    background-color: #218aff;
     font-size: larger;
-    margin-left: 10px;
-    margin-right: 10px;
+    transition: 1s;
 }
 
-.nav-item:hover .item {
-    opacity: 1;
+
+.nav-item:hover {
+    background-color: #218aff;
+    width: 105px;
+    .item{
+        display: contents;
+        background-color: #218aff;
+    }
+    .item-icon{
+        fill: white;
+        background-color: #218aff;
+
+    }
 }
 
 .profile{
@@ -120,8 +122,19 @@
     border: 8px solid rgba(50, 50, 50);
     margin-bottom: 2rem;
 }
+
 .wassup{
     font-weight: 500;
     font-size: 3rem;
-    
+}
+.portfolio-subtext{
+    color: rgba(80, 80, 80);
+    margin: 15px;
+}
+.cv-btn{
+    background-color: #218aff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
 }
