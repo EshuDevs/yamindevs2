@@ -1,17 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(30, 30, 30);
     color: white ;
     font-family: 'SF Pro';
 }
+body{
+    background-color: rgb(30, 30, 30);
+}
 .header{
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    margin-bottom: 10rem; 
  }
 .nav{
     display: flex;
@@ -138,4 +140,55 @@
     border-radius: 10px;
     border: none;
     margin-top: 10px;
+}
+main{
+    margin-top: 10rem;
+    margin: 2rem;
+}
+.about-section{
+    display: flex;
+    flex-direction: column;
+}
+.about-head{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.about-section-icon{
+    width: 35px;
+    height: 35px;
+    fill: rgba(40, 40, 40);
+    background-color: #218aff;
+    border-radius: 7px;
+    padding: 4px;
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 550;
+}
+.chat{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+}
+.received{
+    float: right;
+    clear: both;
+    padding: 1rem;
+    max-width: 70%;
+    text-align: right;
+    background-color: rgba(60, 60, 60);
+    border-radius: 20px 20px 0 20px;
+    margin: 0.25rem;
+}
+.send{
+    float: left;
+    clear: both;
+    padding: 1rem;
+    max-width: 70%;
+    background-color: #218aff;
+    border-radius: 20px 20px 20px 0;
+    margin: 0.25rem;
+    
 }
