@@ -51,7 +51,7 @@ body{
     height: 20px;
  }
 
- .box{
+ #container{
     width: 1.7rem;
     height: 0.32rem;
     background-color: rgba(50, 50, 50);
@@ -148,6 +148,7 @@ main{
 .about-section{
     display: flex;
     flex-direction: column;
+    font-weight: lighter;
 }
 .about-head{
     display: flex;
@@ -169,26 +170,74 @@ main{
 .chat{
     margin: 1rem;
     padding: 1rem;
-    background-color: rgb(40, 40, 40);
-    border-radius: 10px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 20px;
 }
-.received{
-    float: right;
-    clear: both;
-    padding: 1rem;
-    max-width: 70%;
-    text-align: right;
-    background-color: rgba(60, 60, 60);
-    border-radius: 20px 20px 0 20px;
-    margin: 0.25rem;
-}
-.send{
+.box{
+    display: flex;
     float: left;
     clear: both;
+    max-width: 80%;
+}
+.memoji{
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px;
+    flex-shrink: 0;
+}
+
+.space{
+    width: 41px;
+    flex-shrink: 0;
+}
+.circle{
+    align-self: flex-end;
+    border-radius: 20px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 5px;
+    flex-shrink: 0;
+}
+.memoji-send{
+    width: 25px;
+    height: 30px;
+    padding: 5px;
+}
+.send-box{
+    display: flex;
+    float: right;
+    clear: both;
+    max-width: 80%;
+}
+.received{
     padding: 1rem;
-    max-width: 70%;
+    text-align: right;
+    background-color: rgba(50, 50, 50);
+    border-radius: 20px 20px 20px 0px;
+    margin: 0.25rem;
+    text-align: start;
+}
+
+.send{
+    padding: 1rem;
     background-color: #218aff;
-    border-radius: 20px 20px 20px 0;
+    border-radius: 20px 20px 0px 20px;
     margin: 0.25rem;
     
 }
+.send2{
+    padding: 1rem;
+    background-color: #218aff;
+    border-radius: 20px;
+    margin: 0.25rem;
+}
+
+
+
