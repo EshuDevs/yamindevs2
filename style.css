@@ -22,11 +22,11 @@
  .nav:hover{
     .bar-icon{
         fill: rgba(60, 60, 60);
-        transition: fill 0.3s ease-in-out;
+        transition: fill 0.1s ease-in-out;
     }
     .nav-items{
         opacity: 1;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.1s ease-in-out;
     }
 
 }
@@ -80,6 +80,7 @@
     margin-bottom: 10px;
     margin-left: 30px;
     margin: 10px;
+    transition: 0.5s;
 }
 .item-icon{
     fill: #218aff;
@@ -89,13 +90,13 @@
     padding: 8px;
     border-radius: 24px;
     flex-shrink: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 .item {
     display: none;
     margin: 0;
     font-size: larger;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
