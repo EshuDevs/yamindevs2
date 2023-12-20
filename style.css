@@ -15,6 +15,7 @@ body{
     align-items: center; 
     margin-bottom: 10rem; 
  }
+
 .nav{
     display: flex;
     flex-direction: row;
@@ -141,15 +142,18 @@ body{
     border: none;
     margin-top: 10px;
 }
-main{
+.main{
     margin-top: 10rem;
     margin: 2rem;
+    opacity: 0;
+    transition: opacity 2s ease;
 }
 .about-section{
     display: flex;
     flex-direction: column;
     font-weight: lighter;
 }
+
 .about-head{
     display: flex;
     align-items: center;
@@ -177,7 +181,21 @@ main{
     display: flex;
     float: left;
     clear: both;
-    max-width: 80%;
+    max-width: 75%;
+}
+.send-box{
+    display: flex;
+    float: right;
+    clear: both;
+    max-width: 75%;
+}
+@media (min-width: 800px) {
+    .send-box{
+        max-width: 70%;
+    }
+    .box{
+        max-width: 70%;
+    }
 }
 .memoji{
     width: 40px;
@@ -210,14 +228,8 @@ main{
     height: 30px;
     padding: 5px;
 }
-.send-box{
-    display: flex;
-    float: right;
-    clear: both;
-    max-width: 80%;
-}
 .received{
-    padding: 1rem;
+    padding: 0.8rem;
     text-align: right;
     background-color: rgba(50, 50, 50);
     border-radius: 20px 20px 20px 0px;
@@ -226,14 +238,14 @@ main{
 }
 
 .send{
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: #218aff;
     border-radius: 20px 20px 0px 20px;
     margin: 0.25rem;
     
 }
 .send2{
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: #218aff;
     border-radius: 20px;
     margin: 0.25rem;
