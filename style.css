@@ -242,7 +242,6 @@ body{
     background-color: #218aff;
     border-radius: 20px 20px 0px 20px;
     margin: 0.25rem;
-    
 }
 .send2{
     padding: 0.8rem;
@@ -250,34 +249,25 @@ body{
     border-radius: 20px;
     margin: 0.25rem;
 }
-.skills{
-    margin-top: 25rem;
-}
-.skills-main{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 5rem;
-    flex-wrap: wrap;
-}
-.skills-container{
-    display: flex;
-    text-align: center;
-}
+
 .skills-icon{
-    width: 40px;
-    height: 40px;
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
 }
 .html{
-    fill: rgb( 236, 99, 55)
+    fill: rgb(236, 99, 55);
+    top: 3px;
+    
 }
 .css{
- fill: rgb( 73, 146, 234);
+ fill: rgb(59, 104, 175);
 }
 .javascript{
-    fill: rgb( 232, 215 , 88);
+    fill: rgb(232, 215 , 88);
 }
 .react{
-    fill: rgb( 134, 216, 247);
+    fill: rgb(134, 216, 247);
 }
 
