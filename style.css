@@ -252,13 +252,12 @@ body{
 
 .skills-icon{
     position: relative;
-    top: 3px;
-    width: 20px;
-    height: 20px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
 }
 .html{
     fill: rgb(236, 99, 55);
-    top: 3px;
     
 }
 .css{
@@ -270,4 +269,14 @@ body{
 .react{
     fill: rgb(134, 216, 247);
 }
+.projects-section{
+    margin-top: 20rem;
+}
+.project-section-icon{
+    width: 55px;
+    height: 55xpx;
+    fill: #218aff;
+    border-radius: 7px;
+}
+
 
