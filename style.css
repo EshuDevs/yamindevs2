@@ -154,12 +154,12 @@ body{
     font-weight: lighter;
 }
 
-.about-head{
+.head{
     display: flex;
     align-items: center;
     gap: 12px;
 }
-.about-section-icon{
+.section-icon{
     width: 35px;
     height: 35px;
     fill: rgba(40, 40, 40);
@@ -167,7 +167,7 @@ body{
     border-radius: 7px;
     padding: 4px;
 }
-.about-title{
+.title{
     font-size: 3rem;
     font-weight: 550;
 }
@@ -250,6 +250,34 @@ body{
     border-radius: 20px;
     margin: 0.25rem;
 }
-
-
+.skills{
+    margin-top: 25rem;
+}
+.skills-main{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+.skills-container{
+    display: flex;
+    text-align: center;
+}
+.skills-icon{
+    width: 40px;
+    height: 40px;
+}
+.html{
+    fill: rgb( 236, 99, 55)
+}
+.css{
+ fill: rgb( 73, 146, 234);
+}
+.javascript{
+    fill: rgb( 232, 215 , 88);
+}
+.react{
+    fill: rgb( 134, 216, 247);
+}
 
